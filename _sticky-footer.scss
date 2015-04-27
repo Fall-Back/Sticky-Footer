@@ -2,17 +2,6 @@
     Sticky Footer Pattern
 \*------------------------------------------------------------------------------------------------*/
 
-// Include the necessary head/body code unless fallback-bse has been included:
-$fallback-base: false !default;
-@if $fallback-base == false {
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-}
-
 /*
     NOTE: `.sticky-footer-outer-wrap` is only used for wrapper elements above `.sticky-footer-wrap` 
     up to `body` - it's always not required. You DO NOT need to use this class if:
