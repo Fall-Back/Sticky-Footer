@@ -1,17 +1,20 @@
 {
-    "name": "fallback-svg",
+    "name": "Fallback-Sticky-Footer",
     "version": "0.1.1",
-    "homepage": "https://github.com/Fall-Back/SVG",
+    "homepage": "https://github.com/Fall-Back/Sticky-Footer",
     "authors": [
         "Andy Kirk <andy.kirk@gridlight-design.co.uk>"
     ],
-    "description": "A pattern to include SVG's in the best possible way without penalising any particular user group.",
-    "main": "_svg.scss",
+    "description": "A simple sticky footer pattern.",
+    "main": "_sticky-footer.scss",
+    "ignore":[],
     "keywords": [
         "fallback",
-        "fallbacks",
         "css",
-        "svg"
+        "sticky-footer"
     ],
-    "license": "Apache"
+    "license": "Apache",
+    "dependencies": {
+        "Fallback-Base": "https://github.com/Fall-Back/Fallback-Base"
+    }
 }
