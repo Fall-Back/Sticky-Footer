@@ -1,7 +1,7 @@
 Sticky-Footer
 ===========
 
-Not so much a 'Fallback' but a useful sticky-footer pattern with good browser support.
+Not so much a 'FallBack' but a useful sticky-footer pattern with good browser support.
 
 [Demo](http://lab.gridlight-design.co.uk/fallback/sticky-footer/sticky-footer-basic.html)
 
