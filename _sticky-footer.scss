@@ -3,16 +3,24 @@
 \*------------------------------------------------------------------------------------------------*/
 
 /*
-    NOTE: `.sticky-footer-outer-wrap` is only used for wrapper elements above `.sticky-footer-wrap` 
+    NOTE: `.sticky-footer-outer-wrap` is only used for wrapper elements above `.sticky-footer-wrap`
     up to `body` - it's always not required. You DO NOT need to use this class if:
-    
+
        * you don't have any wrappers between `.sticky-footer-wrap` and `body`
-       
+
        OR
-       
+
        * your wrappers already have `height: 100%;` on them from elsewhere
 */
-.sticky-footer-outer-wrap {       
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-footer-outer-wrap {
     height: 100%;
 }
 
@@ -21,7 +29,7 @@
     position: relative;
     height: 100%;
     width: 100%;
-}       
+}
 
 .sticky-footer {
     display: table-row;
