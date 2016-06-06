@@ -2,4 +2,6 @@
 bower_components/
 sticky-footer.css
 sticky-footer.scss
+sticky-footer-flex.css
+sticky-footer-flex.scss
 *.css.map
